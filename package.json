@@ -1,0 +1,14 @@
+{
+  "name": "zeriosxmods",
+  "version": "1.0.0",
+  "description": "Premium game modifications by ZeriosXMods",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "start": "npx http-server -p 3000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["zerios", "mods", "gaming", "modifications"],
+  "author": "",
+  "license": "ISC"
+}

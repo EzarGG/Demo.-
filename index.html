@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeriosXMods - Premium Game Modifications</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gaming-red': '#ff3333',
+                        'gaming-blue': '#00bfff',
+                        'dark-bg': '#0a0a0a',
+                        'card-bg': '#1a1a1a',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark-bg text-white overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-dark-bg/95 backdrop-blur-sm border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-gaming-red">
+                        <img src="images/IMG_20250726_200025_520.jpg" alt="ZeriosXMods" class="w-8 h-8 mr-2 inline-block">ZeriosXMods
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-white hover:text-gaming-red transition-colors">Home</a>
+                        <a href="#mods" class="text-white hover:text-gaming-red transition-colors">Mods</a>
+                        <a href="#features" class="text-white hover:text-gaming-red transition-colors">Features</a>
+                        <a href="#testimonials" class="text-white hover:text-gaming-red transition-colors">Reviews</a>
+                        <a href="#contact" class="text-white hover:text-gaming-red transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-white hover:text-gaming-red">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-gaming-red/10 to-gaming-blue/10"></div>
+        <div class="absolute inset-0 bg-[url('images/IMG_20250726_200025_520.jpg')] bg-cover bg-center opacity-20"></div>
+        
+        <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gaming-red to-gaming-blue bg-clip-text text-transparent">
+                DOMINATE WITH ZERIOS
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-300">
+                Premium mods that give you the competitive edge you need
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-gradient-to-r from-gaming-red to-red-600 px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-gaming-red/30 transition-all transform hover:scale-105">
+                    <i class="fas fa-download mr-2"></i>Get Mods Now
+                </button>
+                <button class="border-2 border-gaming-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gaming-blue/10 transition-all">
+                    <i class="fas fa-play mr-2"></i>Watch Demo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Mods -->
+    <section id="mods" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Premium Mod Collection</h2>
+                <p class="text-xl text-gray-400">Carefully crafted modifications for the ultimate gaming experience</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Mod Card 1 -->
+                <div class="bg-card-bg rounded-xl p-6 border border-gray-800 hover:border-gaming-red/50 transition-all hover:shadow-lg hover:shadow-gaming-red/20 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-gaming-red/20 to-gaming-blue/20 rounded-lg mb-6 flex items-center justify-center">
+                        <i class="fas fa-crosshairs text-6xl text-gaming-red"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Bronze Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-3xl font-bold text-gaming-red">20k IDR</span>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-gaming-red to-red-600 py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        3 Days
+                    </button>
+                </div>
+
+                <!-- Mod Card 2 -->
+                <div class="bg-card-bg rounded-xl p-6 border border-gray-800 hover:border-gaming-blue/50 transition-all hover:shadow-lg hover:shadow-gaming-blue/20 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-gaming-blue/20 to-purple-500/20 rounded-lg mb-6 flex items-center justify-center">
+                        <i class="fas fa-eye text-6xl text-gaming-blue"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Silver Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-3xl font-bold text-gaming-blue">30k IDR</span>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-gaming-blue to-blue-600 py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        7 Days
+                    </button>
+                </div>
+
+                <!-- Mod Card 3 -->
+                <div class="bg-card-bg rounded-xl p-6 border border-gray-800 hover:border-purple-500/50 transition-all hover:shadow-lg hover:shadow-purple-500/20 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg mb-6 flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-6xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Gold Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-3xl font-bold text-purple-500">50k IDR</span>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-purple-500 to-purple-600 py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        30 Days
+                    </button>
+                </div>
+
+                <!-- Mod Card 4 -->
+                <div class="bg-card-bg rounded-xl p-6 border border-gray-800 hover:border-green-500/50 transition-all hover:shadow-lg hover:shadow-green-500/20 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-lg mb-6 flex items-center justify-center">
+                        <i class="fas fa-tachometer-alt text-6xl text-green-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Platinum Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-3xl font-bold text-green-500">60k IDR</span>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-green-500 to-green-600 py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        40 Days
+                    </button>
+                </div>
+
+                <!-- Mod Card 5 -->
+                <div class="bg-card-bg rounded-xl p-6 border border-gray-800 hover:border-yellow-500/50 transition-all hover:shadow-lg hover:shadow-yellow-500/20 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 rounded-lg mb-6 flex items-center justify-center">
+                        <i class="fas fa-bullseye text-6xl text-yellow-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Diamond Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-3xl font-bold text-yellow-500">80k</span>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        1 Season
+                    </button>
+                </div>
+
+                <!-- Bundle Card -->
+                <div class="bg-gradient-to-br from-gaming-red/10 to-gaming-blue/10 rounded-xl p-6 border border-gaming-red hover:border-gaming-red transition-all hover:shadow-lg hover:shadow-gaming-red/30 transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-br from-gaming-red/30 to-gaming-blue/30 rounded-lg mb-6 flex items-center justify-center relative">
+                        <i class="fas fa-crown text-6xl text-yellow-400"></i>
+                        <div class="absolute top-2 right-2 bg-gaming-red text-xs px-2 py-1 rounded-full">BEST VALUE</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Ultimate Bundle</h3>
+                    <p class="text-gray-400 mb-4">ESP, Aimbot, Skinhack, No recoil, No spread, Speedhack</p>
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <span class="text-lg text-gray-500 line-through">100k IDR</span>
+                            <span class="text-3xl font-bold text-gaming-red ml-2">60k IDR</span>
+                        </div>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-gaming-red to-gaming-blue py-3 rounded-lg font-semibold hover:shadow-lg transition-all">
+                        Get Lifetime
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 bg-gray-900/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Why Choose Our Mods?</h2>
+                <p class="text-xl text-gray-400">Professional quality modifications with unmatched performance</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-gaming-red/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-virus text-2xl text-gaming-red"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Undetectable</h3>
+                    <p class="text-gray-400">Advanced anti-detection technology keeps you safe from game security systems.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-gaming-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-2xl text-gaming-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">High Performance</h3>
+                    <p class="text-gray-400">Optimized code ensures smooth gameplay without FPS drops or lag.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-sync-alt text-2xl text-green-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Regular Updates</h3>
+                    <p class="text-gray-400">Frequent updates ensure compatibility with the latest game versions.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-2xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Easy Setup</h3>
+                    <p class="text-gray-400">Simple installation process with detailed guides and video tutorials.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-2xl text-yellow-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">24/7 Support</h3>
+                    <p class="text-gray-400">Round-the-clock customer support via Discord and live chat.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-medal text-2xl text-pink-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Premium Quality</h3>
+                    <p class="text-gray-400">Professional-grade modifications developed by experienced coders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">What Gamers Say</h2>
+                <p class="text-xl text-gray-400">Join thousands of satisfied customers dominating Bloodstrike</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-card-bg p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Yo ndak tau kok Tanya saya"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-gaming-red rounded-full flex items-center justify-center mr-3">
+                            <span class="text-sm font-bold">M</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Mulyono</p>
+                            <p class="text-sm text-gray-400">Pro Player</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-card-bg p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"yang bilang cheat nya jelek Gak rispek bgt wok"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-gaming-blue rounded-full flex items-center justify-center mr-3">
+                            <span class="text-sm font-bold">W</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Wowo</p>
+                            <p class="text-sm text-gray-400">Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-card-bg p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Memang kenapa kalau saya ngecheat?,wong saya suka kok"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center mr-3">
+                            <span class="text-sm font-bold">G</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Ganjrar</p>
+                            <p class="text-sm text-gray-400">Competitive Player</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-900/50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">Ready to Dominate?</h2>
+            <p class="text-xl text-gray-400 mb-8">Join thousands of players who have already upgraded their game</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <button class="bg-gradient-to-r from-gaming-red to-red-600 px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-gaming-red/30 transition-all transform hover:scale-105">
+                    <i class="fab fa-telegram mr-2"></i>Join Telegram
+                </button>
+                <button class="border-2 border-gaming-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gaming-blue/10 transition-all">
+                    <i class="fas fa-envelope mr-2"></i>Contact Support
+                </button>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <i class="fas fa-users text-3xl text-gaming-red mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">50K+ Users</h3>
+                    <p class="text-gray-400">Active community</p>
+                </div>
+                <div>
+                    <i class="fas fa-download text-3xl text-gaming-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">100K+ Downloads</h3>
+                    <p class="text-gray-400">Trusted worldwide</p>
+                </div>
+                <div>
+                    <i class="fas fa-star text-3xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">4.9/5 Rating</h3>
+                    <p class="text-gray-400">Customer satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-bg border-t border-gray-800 py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold text-gaming-red mb-4">
+                        <img src="images/IMG_20250726_200025_520.jpg" alt="ZeriosXMods" class="w-8 h-8 mr-2 inline-block">ZeriosXMods
+                    </div>
+                    <p class="text-gray-400">Premium game modifications for the ultimate competitive advantage.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Products</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">3 Days - 20k IDR</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">7 Days - 30k IDR</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">30 Days - 50k IDR</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Lifetime - 60k IDR</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Installation Guide</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Telegram</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">Refund Policy</a></li>
+                        <li><a href="#" class="hover:text-gaming-red transition-colors">DMCA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 ZeriosXMods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
