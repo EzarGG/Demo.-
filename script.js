@@ -146,7 +146,7 @@ function typeWriter(element, text, speed = 100) {
 document.querySelectorAll('button').forEach(button => {
     if (button.textContent.includes('Purchase') || button.textContent.includes('Get')) {
         button.addEventListener('click', function() {
-            window.open('https://t.me/zeriosmodz', '_blank');
+            window.open('https://t.me/ZERIOSPEMILIKGRUB', '_blank');
         });
     }
 });
@@ -171,13 +171,13 @@ document.querySelectorAll('button').forEach(button => {
     
     if (button.textContent.includes('Contact')) {
         button.addEventListener('click', () => {
-            window.open('https://t.me/zeriosmodz', '_blank');
+            window.open('https://t.me/ZERIOSxMOZARELLA', '_blank');
         });
     }
     
     if (button.textContent.includes('Get Mods Now')) {
         button.addEventListener('click', () => {
-            window.open('https://t.me/zeriosmodz', '_blank');
+            window.open('https://t.me/ZERIOSPEMILIKGRUB', '_blank');
         });
     }
     
