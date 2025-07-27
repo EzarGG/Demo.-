@@ -171,7 +171,7 @@ document.querySelectorAll('button').forEach(button => {
     
     if (button.textContent.includes('Contact')) {
         button.addEventListener('click', () => {
-            window.open('https://t.me/ZERIOSxMOZARELLA', '_blank');
+            window.open('https://t.me/ZERIOSPEMILIKGRUB', '_blank');
         });
     }
     
